@@ -1,5 +1,5 @@
 body[class*="dark-ui"] .mde-preview {
-  color: rgba(255, 255, 255, 0.7);
+  color: #abb2bf;
 }
 body[class*="dark-ui"] .mde-preview a {
   background-color: transparent;
@@ -11,11 +11,11 @@ body[class*="dark-ui"] .mde-preview input {
   color: inherit;
 }
 body[class*="dark-ui"] .mde-preview a {
-  color: #6987AF;
+  color: #528bff;
 }
 body[class*="dark-ui"] .mde-preview strong,
 body[class*="dark-ui"] .mde-preview em {
-  color: white;
+  color: #abb2bf;
 }
 body[class*="dark-ui"] .mde-preview h1,
 body[class*="dark-ui"] .mde-preview h2,
@@ -23,7 +23,7 @@ body[class*="dark-ui"] .mde-preview h3,
 body[class*="dark-ui"] .mde-preview h4,
 body[class*="dark-ui"] .mde-preview h5,
 body[class*="dark-ui"] .mde-preview h6 {
-  color: rgba(255, 255, 255, 0.875);
+  color: #abb2bf;
 }
 body[class*="dark-ui"] .mde-preview h6 {
   color: rgba(255, 255, 255, 0.625);
@@ -36,11 +36,11 @@ body[class*="dark-ui"] .mde-preview hr {
   background-color: rgba(255, 255, 255, 0.3);
 }
 body[class*="dark-ui"] .mde-preview blockquote {
-  color: rgba(255, 255, 255, 0.4);
+  color: #828997;
   border-left: 4px solid rgba(255, 255, 255, 0.1);
 }
 body[class*="dark-ui"] .mde-preview table th {
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255, 0.08);
 }
 body[class*="dark-ui"] .mde-preview table th,
 body[class*="dark-ui"] .mde-preview table td {
@@ -61,17 +61,17 @@ body[class*="dark-ui"] .mde-preview pre {
   background-color: rgba(0, 0, 0, 0.1);
 }
 body[class*="dark-ui"] .mde-preview .cm-header {
-  color: #ffcc66;
+  color: #528bff;
 }
 body[class*="dark-ui"] .mde-preview .cm-quote {
-  color: #969896;
+  color: #828997;
   font-style: italic;
 }
 body[class*="dark-ui"] .mde-preview .cm-negative {
-  color: #d44;
+  color: #e06c75;
 }
 body[class*="dark-ui"] .mde-preview .cm-positive {
-  color: #292;
+  color: #98c379;
 }
 body[class*="dark-ui"] .mde-preview .cm-header,
 body[class*="dark-ui"] .mde-preview .cm-strong {
@@ -80,72 +80,77 @@ body[class*="dark-ui"] .mde-preview .cm-strong {
 body[class*="dark-ui"] .mde-preview .cm-em {
   font-style: italic;
 }
-body[class*="dark-ui"] .mde-preview .cm-link {
-  text-decoration: underline;
-}
 body[class*="dark-ui"] .mde-preview .cm-strikethrough {
   text-decoration: line-through;
 }
 body[class*="dark-ui"] .mde-preview .cm-keyword {
-  color: #cc99cc;
-  font-weight: normal;
+  color: #c678dd;
+  font-weight: bold;
 }
 body[class*="dark-ui"] .mde-preview .cm-atom {
-  color: #8abeb7;
+  color: #e6c07b;
 }
 body[class*="dark-ui"] .mde-preview .cm-number {
-  color: #f99157;
+  color: #d19a66;
 }
 body[class*="dark-ui"] .mde-preview .cm-def {
-  color: #b5bd68;
+  color: #e06c75;
+}
+body[class*="dark-ui"] .mde-preview .cm-keyword + .cm-def {
+  color: #61afef;
 }
 body[class*="dark-ui"] .mde-preview .cm-property {
-  color: #b5bd68;
+  color: #61afef;
 }
 body[class*="dark-ui"] .mde-preview .cm-operator {
-  color: #cc99cc;
+  color: #528bff;
 }
-body[class*="dark-ui"] .mde-preview .cm-variable-2 {
-  color: #4A664A;
+body[class*="dark-ui"] .mde-preview .cm-variable {
+  color: #e06c75;
 }
-body[class*="dark-ui"] .mde-preview .cm-variable-3,
+body[class*="dark-ui"] .mde-preview .cm-variable-2,
+body[class*="dark-ui"] .mde-preview .cm-variable-3 {
+  color: #abb2bf;
+}
+body[class*="dark-ui"] .mde-preview .cm-s-default {
+  color: #abb2bf;
+}
 body[class*="dark-ui"] .mde-preview .cm-type {
-  color: rgba(255, 255, 255, 0.8);
+  color: #98c379;
 }
 body[class*="dark-ui"] .mde-preview .cm-comment {
-  color: #969896;
+  color: #5c6370;
   font-style: italic;
 }
-body[class*="dark-ui"] .mde-preview .cm-string {
-  color: #8abeb7;
-}
+body[class*="dark-ui"] .mde-preview .cm-string,
 body[class*="dark-ui"] .mde-preview .cm-string-2 {
-  color: #8abeb7;
+  color: #98c379;
 }
 body[class*="dark-ui"] .mde-preview .cm-meta {
-  color: #f99157;
+  color: #e6c07b;
 }
 body[class*="dark-ui"] .mde-preview .cm-qualifier {
-  color: #555;
+  color: #e6c07b;
 }
 body[class*="dark-ui"] .mde-preview .cm-builtin {
-  color: #8abeb7;
+  color: #56b6c2;
 }
 body[class*="dark-ui"] .mde-preview .cm-bracket {
-  color: #f99157;
+  color: #528bff;
 }
 body[class*="dark-ui"] .mde-preview .cm-tag {
-  color: #a54543;
+  color: #be5046;
 }
 body[class*="dark-ui"] .mde-preview .cm-attribute {
-  color: #fda331;
+  color: #61afef;
 }
 body[class*="dark-ui"] .mde-preview .cm-hr {
-  color: #999;
+  color: #98c379;
 }
 body[class*="dark-ui"] .mde-preview .cm-link {
-  color: #f99157;
+  color: #98c379;
+  text-decoration: underline;
 }
 body[class*="dark-ui"] .mde-preview .cm-error {
-  color: #f00;
+  color: #e06c75;
 }

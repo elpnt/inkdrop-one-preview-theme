@@ -1,0 +1,136 @@
+// -----------
+//  variables
+// -----------
+@black:  #abb2bf;
+@dark-grey:  #828997;
+@grey:  #5c6370;
+@light-grey:  #4b5263;
+
+@cyan:    #56b6c2;
+@blue:    #61afef;
+@light-blue: #b6e9ed; //
+@purple:  #c678dd;
+@green:   #98c379;
+@red: #e06c75;
+@dark-red:  #be5046;
+@orange: #d19a66;
+@dark-orange: #e6c07b;
+
+@syntax-bg: #282c34;
+@syntax-fg: #abb2bf;
+@syntax-accent: #528bff;
+@syntax-gutter: #636d83;
+@syntax-cursor: #2c323c;
+
+body[class*="dark-ui"] {
+  .mde-preview {
+    color: @syntax-fg;
+  }
+
+  .mde-preview {
+    a {
+      background-color: transparent;
+    }
+
+    img {
+      border: 0;
+    }
+
+    input {
+      color: inherit;
+    }
+
+    a {
+      color: @syntax-accent;
+    }
+
+    strong, em {
+      color: @black;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: @syntax-fg;
+    }
+
+    h6 {
+      color: rgba(255, 255, 255, 0.625);
+    }
+
+    h1,
+    h2 {
+      border-bottom-color: rgba(255, 255, 255, 0.4);
+    }
+
+    hr {
+      background-color: rgba(255, 255, 255, 0.3);
+    }
+
+    blockquote {
+      color: @dark-grey;
+      border-left: 4px solid rgba(255, 255, 255, 0.1);
+    }
+
+    table th {
+      background-color: rgba(255, 255, 255, 0.08);
+    }
+
+    table th,
+    table td {
+      border: 1px solid rgba(255, 255, 255, 0.25);
+    }
+
+    table tr {
+      background-color: transparent;
+      border-top: 1px solid rgba(255, 255, 255, 0.25);
+    }
+
+    table tr:nth-child(2n) {
+      background-color: rgba(255, 255, 255, 0.05);
+    }
+
+    img {
+      background-color: transparent;
+    }
+
+    .highlight pre,
+    pre {
+      background-color: rgba(0, 0, 0, 0.1);
+    }
+
+    .cm-header {color: @syntax-accent;}
+    .cm-quote {color: @dark-grey; font-style: italic;}
+    .cm-negative {color: @red;}
+    .cm-positive {color: @green;}
+    .cm-header, .cm-strong {font-weight: bold;}
+    .cm-em {font-style: italic;}
+    .cm-strikethrough {text-decoration: line-through;}
+
+    .cm-keyword {color: @purple; font-weight: bold;}
+    .cm-atom {color: @dark-orange;}
+    .cm-number {color: @orange;}
+    .cm-def {color: @red;}
+    .cm-keyword + .cm-def {color: @blue;}
+    .cm-property {color: @blue;}
+    .cm-operator {color: @syntax-accent;}
+    .cm-variable {color: @red;}
+    .cm-variable-2, .cm-variable-3 {color: @black;}
+    .cm-s-default {color: @black;}
+    .cm-type {color: @green;}
+    .cm-comment {color: @grey; font-style: italic;}
+    .cm-string, .cm-string-2 {color: @green;}
+    .cm-meta {color: @dark-orange;}
+    .cm-qualifier {color: @dark-orange;}
+    .cm-builtin {color: @cyan;}
+    .cm-bracket {color: @syntax-accent;}
+    .cm-tag {color: @dark-red;}
+    .cm-attribute {color: @blue;}
+    .cm-hr {color: @green;}
+    .cm-link {color: @green; text-decoration: underline;}
+    .cm-error {color: @red;}
+  }
+}

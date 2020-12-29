@@ -28,10 +28,10 @@
 }
 .mde-preview strong {
   font-weight: bold;
-  color: black;
+  color: #494b53;
 }
 .mde-preview em {
-  color: black;
+  color: #494b53;
 }
 .mde-preview h1 {
   font-size: 2em;
@@ -83,7 +83,7 @@
   font: 13px / 1.4 Helvetica, arial, nimbussansl, liberationsans, freesans, clean, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 .mde-preview a {
-  color: #4078c0;
+  color: #4078f2;
   text-decoration: none;
 }
 .mde-preview a:hover,
@@ -96,7 +96,7 @@
   overflow: hidden;
   background: transparent;
   border: 0;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #696c77;
 }
 .mde-preview hr:before {
   display: table;
@@ -208,7 +208,7 @@
 .mde-preview h4 .octicon-link,
 .mde-preview h5 .octicon-link,
 .mde-preview h6 .octicon-link {
-  color: #000;
+  color: #494b53;
   vertical-align: middle;
   visibility: hidden;
 }
@@ -232,7 +232,7 @@
   padding-bottom: 0.3em;
   font-size: 2.25em;
   line-height: 1.2;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #494b53;
 }
 .mde-preview h1 .anchor {
   line-height: 1;
@@ -241,7 +241,7 @@
   padding-bottom: 0.3em;
   font-size: 1.75em;
   line-height: 1.225;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #494b53;
 }
 .mde-preview h2 .anchor {
   line-height: 1;
@@ -286,7 +286,7 @@
   height: 4px;
   padding: 0;
   margin: 16px 0;
-  background-color: #e7e7e7;
+  background-color: #c2c2c3;
   border: 0 none;
 }
 .mde-preview ul,
@@ -319,8 +319,8 @@
 }
 .mde-preview blockquote {
   padding: 0 15px;
-  color: #777;
-  border-left: 4px solid #ddd;
+  color: #a0a1a7;
+  border-left: 4px solid #a0a1a7;
 }
 .mde-preview blockquote > :first-child {
   margin-top: 0;
@@ -336,18 +336,19 @@
 }
 .mde-preview table th {
   font-weight: bold;
+  background-color: #eeeeee;
 }
 .mde-preview table th,
 .mde-preview table td {
   padding: 6px 13px;
-  border: 1px solid #ddd;
+  border: 1px solid #BDBDBD;
 }
 .mde-preview table tr {
-  background-color: #fff;
-  border-top: 1px solid #ccc;
+  background-color: #FAFAFA;
+  border-top: 1px solid #BDBDBD;
 }
 .mde-preview table tr:nth-child(2n) {
-  background-color: #f8f8f8;
+  background-color: #f5f5f5;
 }
 .mde-preview img {
   max-width: 100%;
@@ -383,7 +384,7 @@
   word-wrap: normal;
   font-size: 85%;
   line-height: 1.45;
-  background-color: #f7f7f7;
+  background-color: #EEEEEE;
   border-radius: 3px;
 }
 .mde-preview pre code {
@@ -415,17 +416,17 @@
   box-shadow: inset 0 -1px 0 #bbb;
 }
 .mde-preview .cm-header {
-  color: blue;
+  color: #526fff;
 }
 .mde-preview .cm-quote {
-  color: #090;
+  color: #696c77;
   font-style: italic;
 }
 .mde-preview .cm-negative {
-  color: #d44;
+  color: #e45649;
 }
 .mde-preview .cm-positive {
-  color: #292;
+  color: #50a14f;
 }
 .mde-preview .cm-header,
 .mde-preview .cm-strong {
@@ -434,74 +435,79 @@
 .mde-preview .cm-em {
   font-style: italic;
 }
-.mde-preview .cm-link {
-  text-decoration: underline;
-}
 .mde-preview .cm-strikethrough {
   text-decoration: line-through;
 }
 .mde-preview .cm-keyword {
-  color: #333;
+  color: #a626a4;
   font-weight: bold;
 }
 .mde-preview .cm-atom {
-  color: #219;
+  color: #986801;
 }
 .mde-preview .cm-number {
-  color: #164;
+  color: #c18401;
 }
 .mde-preview .cm-def {
-  color: #00f;
+  color: #494b53;
+}
+.mde-preview .cm-keyword + .cm-def {
+  color: #4078f2;
 }
 .mde-preview .cm-property {
-  color: #00c;
+  color: #4078f2;
 }
 .mde-preview .cm-operator {
-  color: #708;
+  color: #526fff;
 }
-.mde-preview .cm-variable-2 {
-  color: #05a;
+.mde-preview .cm-variable {
+  color: #e45649;
 }
-.mde-preview .cm-variable-3,
-.mde-preview .cm-s-default .cm-type {
-  color: #085;
+.mde-preview .cm-variable-2,
+.mde-preview .cm-variable-3 {
+  color: #494b53;
+}
+.mde-preview .cm-s-default {
+  color: #494b53;
+}
+.mde-preview .cm-type {
+  color: #50a14f;
 }
 .mde-preview .cm-comment {
-  color: #a50;
+  color: #a0a1a7;
   font-style: italic;
 }
-.mde-preview .cm-string {
-  color: #a11;
-}
+.mde-preview .cm-string,
 .mde-preview .cm-string-2 {
-  color: #f50;
+  color: #50a14f;
 }
 .mde-preview .cm-meta {
-  color: #555;
+  color: #986801;
 }
 .mde-preview .cm-qualifier {
-  color: #555;
+  color: #986801;
 }
 .mde-preview .cm-builtin {
-  color: #30a;
+  color: #0184bc;
 }
 .mde-preview .cm-bracket {
-  color: #997;
+  color: #526fff;
 }
 .mde-preview .cm-tag {
-  color: #170;
+  color: #ca1243;
 }
 .mde-preview .cm-attribute {
-  color: #00c;
+  color: #4078f2;
 }
 .mde-preview .cm-hr {
-  color: #999;
+  color: #50a14f;
 }
 .mde-preview .cm-link {
-  color: #00c;
+  color: #50a14f;
+  text-decoration: underline;
 }
 .mde-preview .cm-error {
-  color: #f00;
+  color: #e45649;
 }
 .mde-preview kbd {
   display: inline-block;
