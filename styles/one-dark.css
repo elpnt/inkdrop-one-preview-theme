@@ -85,7 +85,6 @@ body[class*="dark-ui"] .mde-preview .cm-strikethrough {
 }
 body[class*="dark-ui"] .mde-preview .cm-keyword {
   color: #c678dd;
-  font-weight: bold;
 }
 body[class*="dark-ui"] .mde-preview .cm-atom {
   color: #e6c07b;
