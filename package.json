@@ -1,7 +1,7 @@
 {
   "name": "one-preview",
   "description": "One dark/light preview theme for Inkdrop",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "theme": "preview",
   "scripts": {
     "build": "lessc styles/less/one-light.less ./styles/one-light.css && lessc styles/less/one-dark.less ./styles/one-dark.css"
